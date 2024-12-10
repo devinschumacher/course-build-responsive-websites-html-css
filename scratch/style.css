@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px; /* 2 columns */
+  column-gap: 50px;
+  row-gap: 30px;
+}
+
+header {
+  background-color: blue;
+  grid-column: 1 / -1; /* span all columns */
+}
+
+article {
+  background-color: red;
+}
+
+aside {
+  background-color: green;
+}
+
+footer {
+  background-color: yellow;
+  grid-column: 1 / -1; /* span all columns */
+}
+
